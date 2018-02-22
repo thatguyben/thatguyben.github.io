@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: -30px;
+  font-size: 15vmin;
+  vertical-align: middle;
+  color: white;
+  background-color: black;
+  overflow: hidden;
+}
+
+sup {
+    font-size: 13vmin;
+}
+
+.text{
+    display: none;
+}
+
+@media (min-width: 70%){
+    .text {
+        display: flex;
+        flex-direction: row;
+    }
+    main {
+        flex-basis: 70%;
+        
+    }
+}
+
+::selection {
+  color: deeppink;
+}
+::-moz-selection {
+  color: deeppink;
+}
